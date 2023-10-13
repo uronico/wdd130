@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Young+Serif&display=swap');
 
 body {
-    max-width: 1600px;
-    margin: 0 auto;
+    
     background-color: #ffffff;
     font-family: 'Young Serif', 'Rubik Wet Paint', sans-serif;
     font-size: 22px; 
@@ -116,4 +115,8 @@ footer .social img {
 }
 main section img {
     box-sizing: border-box;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
 }
