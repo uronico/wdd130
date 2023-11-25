@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Slab&display=swap');
+
+body {
+
+    background-color: #ffffff;
+    font-family: 'Agbalumo', 'Roboto Slab';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+footer {
+    background-color: #052cb0;
+    color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #023047;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+nav a {
+    text-align: center;
+    color: #052cb0;
+    text-decoration: none;
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+   
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #d90d1c;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 8px;
+}
+
+#logo_link {
+    padding-top: 50px;
+    justify-self: center;
+    align-self: center;
+}
+
+main section {
+    text-align: center;
+    grid-column: 4/8;
+    grid-row: 1/7;
+}
+
+.card-img {
+    border: 10px solid #052cb0;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+#hero-msg {
+    background-color: #f8db14;
+    grid-column: 2/3;
+    margin-top: 50px;
+
+}
+
+#hero-msg h1, #hero-msg h2 {
+    text-align: center;
+    color: #052cb0;
+    font-size: 2.5em
+
+}
+
+#hero-msg h2 {
+    text-align: center;
+    color: #052cb0;
+    font-size: 1.5em;
+    font-family: 'Roboto Slab';
+
+}
+
+p {
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 1.5em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
+
+#background {
+    height: 725px;
+    background-color: #ffffff;
+    grid-column: 1/11;
+    grid-row: 2/5;
+}
+
+.luzon-card {
+    grid-column: 2/4;
+    grid-row: 8/3;
+}
+
+.visayas-card {
+    grid-column: 5/7;
+    grid-row: 8/3;
+}
+
+.mindanao-card {
+    grid-column: 8/10;
+    grid-row: 8/3;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.lu {
+    background-color: #052cb0;
+    text-decoration: none;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.tara {
+    background-color: #052cb0;
+    text-decoration: none;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.vi {
+    background-color: #f8db14;
+    text-decoration: none;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.min {
+    background-color: #d90d1c;
+    text-decoration: none;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+}
