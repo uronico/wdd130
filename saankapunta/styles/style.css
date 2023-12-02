@@ -15,9 +15,10 @@ body {
 }
 
 header {
-
+    background-color: #052cb0;
     display: grid;
     grid-template-columns: 300px auto;
+    padding: 25px 50px;
 }
 
 footer {
@@ -45,7 +46,7 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
-    color:#f8db14;
+    color: #f8db14;
 }
 
 footer .social img {
@@ -54,7 +55,7 @@ footer .social img {
 
 nav a {
     text-align: center;
-    color: #052cb0;
+    color: #f8db14;
     text-decoration: none;
     padding: 50px;
 }
@@ -77,7 +78,8 @@ nav a:hover {
 }
 
 #logo_link {
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-self: center;
     align-self: center;
 }
@@ -121,10 +123,7 @@ p {
     color: #ffffff;
     text-align: justify;
     font-size: 1.5em;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    
 
 }
 
@@ -168,7 +167,7 @@ p {
     background-color: #052cb0;
     text-decoration: none;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 18px;
+    font-size: 30px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -179,7 +178,7 @@ p {
     background-color: #052cb0;
     text-decoration: none;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 18px;
+    font-size: 30px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -190,7 +189,7 @@ p {
     background-color: #f8db14;
     text-decoration: none;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 18px;
+    font-size: 30px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -201,9 +200,218 @@ p {
     background-color: #d90d1c;
     text-decoration: none;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 18px;
+    font-size: 30px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
     color: #ffffff;
+}
+
+.msg p {
+    bottom: 0;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #ffffff;
+    /* Grey text */
+    width: 90%;
+    /* Full width */
+    padding: 20px;
+    /* Some padding */
+    margin-left: 70px;
+    
+}
+
+.kadayawan-msg {
+    background-color: #219ebc;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/11;
+    grid-row: 8/10;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.kadayawan-msg p {
+    color: #ffffff;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.higantes-msg {
+    background-color: #219ebc;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/11;
+    grid-row: 2/4;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.higantes-msg p {
+    color: #ffffff;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.maskara-msg {
+    background-color: #219ebc;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/11;
+    grid-row: 5/7;
+    box-shadow: 5px 5px 10px #023047;
+}
+
+.maskara-msg p {
+    color: #ffffff;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.festival1 {
+    grid-column: 1/11;
+    grid-row: 2/11;
+    z-index: 1;
+}
+
+.festival2 {
+    grid-column: 1/11;
+    grid-row: 5/11;
+    z-index: 1;
+}
+
+.festival3 {
+    grid-column: 1/11;
+    grid-row: 8/11;
+    z-index: 1;
+}
+
+.festival-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+
+
+.festival-grid h1 {
+    grid-column: 2/11;
+
+}
+
+.festival-grid h1 {
+    bottom: 0;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #ffffff;
+    /* Grey text */
+    width: 90%;
+    /* Full width */
+    padding: 20px;
+    /* Some padding */
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  
+
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
