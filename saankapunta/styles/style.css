@@ -45,6 +45,7 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+    color:#f8db14;
 }
 
 footer .social img {
@@ -62,7 +63,7 @@ nav {
     display: flex;
     justify-content: space-around;
     font-size: 1.5em;
-   
+
 }
 
 nav a:hover {
@@ -100,11 +101,11 @@ main section {
 
 }
 
-#hero-msg h1, #hero-msg h2 {
+#hero-msg h1,
+#hero-msg h2 {
     text-align: center;
     color: #052cb0;
     font-size: 2.5em
-
 }
 
 #hero-msg h2 {
@@ -122,7 +123,8 @@ p {
     font-size: 1.5em;
     margin-top: 100px;
     margin-bottom: 100px;
-    
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
