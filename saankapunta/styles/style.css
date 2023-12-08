@@ -318,6 +318,31 @@ p {
     /* Some padding */
 }
 
+#contact h1{
+    color:#f8db14;
+    font-size: 3em 
+
+}
+
+#contact p{
+    text-align: left;
+    font-family: 'Roboto Slab';
+    
+    bottom: 0;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #ffffff;
+    /* Grey text */
+    width: 90%;
+    /* Full width */
+    padding: 20px;
+    /* Some padding */
+    margin-left: 70px;
+}
+
 #feedback {
     background-color: antiquewhite;
     position: absolute;
@@ -336,10 +361,10 @@ p {
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    width: 500px;
     /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
+    padding: 2em;
+    border: 2px solid #ccc;
     border-radius: 1em;
 }
 
@@ -350,7 +375,7 @@ ul {
 }
 
 form li+li {
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 label {
@@ -364,14 +389,14 @@ input,
 textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-    font: 1em sans-serif;
+    font: 1.5em sans-serif;
 
     /* Uniform text field size */
-    width: 300px;
+    width: 400px;
     box-sizing: border-box;
 
     /* Match form field borders */
-    border: 1px solid #999;
+    border: 2px solid #999;
 }
 
 input:focus,
